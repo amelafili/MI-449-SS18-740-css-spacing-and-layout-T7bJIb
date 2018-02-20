@@ -1,0 +1,40 @@
+h1 {
+  font-family: Vivaldi, cursive;
+  font-size: 80px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title1 {
+  font-size: 30px;
+  padding-left: 400px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.title2 {
+  padding-left: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://image.freepik.com/free-photo/white-crumpled-paper-texture-for-background_1373-159.jpg);
+}
