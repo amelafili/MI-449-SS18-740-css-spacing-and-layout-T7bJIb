@@ -1,5 +1,4 @@
 ul {
-  margin: 40px;
   padding-left: 90px;
   background-color: white;
   text-align: center;
@@ -7,15 +6,17 @@ ul {
 
 li {
   float: left;
-  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
   display: inline-block;
   color: black;
-  text-align: center;
   padding: 0 150px 20px 130px;
   text-decoration: none;
+  justify-content: center;
 }
 
 a:hover {
@@ -54,8 +55,6 @@ h2 {
   flex-grow: 2;
   float: left;
   position: relative;
-  border-right: 4px solid black;
-  border-left: 4px solid black;
 }
 
 body {
