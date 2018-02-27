@@ -3,12 +3,11 @@ ul {
   justify-content: center;
   align-items: center;
   display: flex;
-  border: black solid 4px;
 }
 
 li {
   display: block;
-  padding: 50px;
+  padding: 20px;
 }
 
 a {
@@ -26,10 +25,12 @@ h1 {
   font-family: Vivaldi, cursive;
   font-size: 80px;
   text-align: center;
-  margin-top: -20px;
+  margin-bottom: 0;
 }
 
 .container {
+  margin: auto;
+  align-content: center;
   background-color: white;
   border: 4px solid black;
 }
